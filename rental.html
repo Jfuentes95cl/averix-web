@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Averix Rental - Gestión Inteligente para Arriendo de Equipos</title> <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <header class="main-header main-header-light">
+        <nav class="navbar container">
+            <a href="index.html" class="navbar-logo">
+                AVERIX
+            </a>
+            <button class="navbar-toggle" id="navbarToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="navbarMenu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="navbar-menu" id="navbarMenu">
+                <li class="nav-item dropdown">
+                    <a href="#" class="navbar-link dropdown-toggle" id="productosDropdownToggle" role="button" aria-haspopup="true" aria-expanded="false">
+                        Productos <i class="fas fa-chevron-down dropdown-indicator"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="productosDropdownToggle">
+                        <li><a class="dropdown-item" href="rental.html">Averix Rental</a></li>
+                        <li><a class="dropdown-item" href="obras.html">Averix Obras</a></li>
+                        <li><a class="dropdown-item" href="transportes.html">Averix Transportes</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#testimonials" class="navbar-link">Testimonios</a>
+                </li>
+                <li class="nav-item">
+                     <a href="/login" class="btn btn-outline-nav">Iniciar Sesión</a>
+                </li>
+                <li class="nav-item">
+                    <button id="openDemoModal" class="btn btn-accent-nav">Solicitar Demo</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="hero-rental" class="hero-section-acumatica hero-rental-bg"> <div class="container hero-content-acumatica">
+                <div class="hero-text-acumatica">
+                    <h1 class="hero-title-acumatica">Domina el Arriendo con <span class="highlight-orange">Averix Rental</span></h1>
+                    <p class="hero-subtitle-acumatica">Maximiza la utilización de tu flota, optimiza contratos y controla la rentabilidad de cada equipo con precisión total.</p>
+                    <div class="hero-buttons-acumatica">
+                        <button id="openDemoModalHeroRental" class="btn btn-accent btn-lg">Demo Averix Rental</button>
+                        <a href="#features-rental" class="btn btn-outline-primary btn-lg">Ver Funcionalidades</a>
+                    </div>
+                     <div class="hero-awards">
+                         <p>Ideal para empresas de:</p>
+                         <i class="fas fa-truck-monster fa-2x" title="Maquinaria Pesada"></i>
+                         <i class="fas fa-tools fa-2x" title="Herramientas"></i>
+                         <i class="fas fa-car-side fa-2x" title="Vehículos"></i>
+                         <i class="fas fa-person-booth fa-2x" title="Andamios/Eventos"></i>
+                    </div>
+                </div>
+                <div class="hero-image-acumatica">
+                    <img src="https://via.placeholder.com/550x400/e6f3ff/051d40?text=Averix+Rental+Interfaz" alt="Interfaz de Averix Rental mostrando disponibilidad de equipos">
+                </div>
+            </div>
+             <div class="background-dots"></div>
+        </section>
+
+        <section id="clients-rental" class="clients-section">
+             <div class="container">
+                <p class="clients-title">Empresas de arriendo que ya optimizan con Averix Rental:</p>
+                <div class="clients-logos">
+                     <img src="https://via.placeholder.com/130x50/cccccc/999999?text=Cliente+Rental+A" alt="Logo Cliente Rental A">
+                     <img src="https://via.placeholder.com/130x50/cccccc/999999?text=Cliente+Rental+B" alt="Logo Cliente Rental B">
+                     <img src="https://via.placeholder.com/130x50/cccccc/999999?text=Cliente+Rental+C" alt="Logo Cliente Rental C">
+                     <img src="https://via.placeholder.com/130x50/cccccc/999999?text=Cliente+Rental+D" alt="Logo Cliente Rental D">
+                </div>
+            </div>
+        </section>
+
+        <section id="features-rental" class="features-section-split">
+            <div class="container features-split-content">
+                <div class="features-split-text">
+                     <span class="eyebrow-text">FUNCIONALIDADES RENTAL</span>
+                    <h2 class="section-heading-left">Gestión Integral <span class="highlight-orange">360°</span></h2>
+                    <p>Desde la cotización hasta la facturación y el mantenimiento, Averix Rental centraliza todo tu ciclo de arriendo.</p>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> **Catálogo Detallado:** Control total de equipos, características, tarifas y disponibilidad en tiempo real.</li>
+                        <li><i class="fas fa-check-circle"></i> **Contratos Flexibles:** Crea y gestiona contratos por día, hora, mes, con seguros y condiciones personalizadas.</li>
+                        <li><i class="fas fa-check-circle"></i> **Despacho y Devolución:** Registra entregas, recepciones, daños y cobros adicionales de forma eficiente.</li>
+                        <li><i class="fas fa-check-circle"></i> **Mantenimiento Preventivo:** Agenda y controla mantenimientos para maximizar la vida útil y disponibilidad.</li>
+                        <li><i class="fas fa-check-circle"></i> **Facturación Integrada:** Genera facturas automáticamente desde los contratos y cumple con SII.</li>
+                    </ul>
+                    <button id="openDemoModalFeaturesRental" class="btn btn-primary">Ver Demo Funcionalidades</button>
+                </div>
+                <div class="features-split-image">
+                    <img src="https://via.placeholder.com/500x450/e6f3ff/051d40?text=Gestión+Contratos+Rental" alt="Pantalla de gestión de contratos de Averix Rental">
+                </div>
+            </div>
+        </section>
+
+         <section id="benefits-rental" class="features-section-cards">
+             <div class="container">
+                <h2 class="section-heading-center">Beneficios Clave de <span class="highlight-orange">Averix Rental</span></h2>
+                 <div class="features-cards-grid">
+                     <div class="feature-card-item">
+                         <div class="card-icon-top"><i class="fas fa-arrow-up-right-dots"></i></div>
+                         <h3>Maximiza Utilización</h3>
+                         <p>Reduce tiempos muertos y aumenta la rotación de tus equipos con visibilidad total de disponibilidad.</p>
+                     </div>
+                     <div class="feature-card-item">
+                         <div class="card-icon-top"><i class="fas fa-dollar-sign"></i></div>
+                         <h3>Incrementa Rentabilidad</h3>
+                         <p>Controla costos de mantenimiento, daños y cobra cada hora extra para optimizar tus márgenes.</p>
+                     </div>
+                      <div class="feature-card-item">
+                         <div class="card-icon-top"><i class="fas fa-clock"></i></div>
+                         <h3>Ahorra Tiempo</h3>
+                         <p>Automatiza la creación de contratos, facturación y reportes, liberando a tu equipo para tareas clave.</p>
+                     </div>
+                 </div>
+            </div>
+        </section>
+
+        <section id="testimonial-rental" class="testimonial-section-center testimonial-bg-light">
+             <div class="container">
+                 <img src="https://via.placeholder.com/100/cccccc/333?text=CL" alt="Foto Cliente Rental" class="testimonial-image">
+                 <blockquote>
+                      "Averix Rental nos dio el control que necesitábamos sobre nuestra flota. Sabemos exactamente dónde está cada equipo, cuándo necesita mantenimiento y cuánto está generando. ¡Indispensable!"
+                 </blockquote>
+                 <div class="testimonial-author-info">
+                     <span class="author-name">María José López</span>
+                     <span class="author-title">Jefa de Operaciones, Arriendos Rápidos Ltda.</span>
+                 </div>
+             </div>
+        </section>
+
+        <section id="final-cta-rental" class="final-cta-section">
+             <div class="container text-center">
+                  <h2 class="final-cta-title">Transforma tu Negocio de Arriendo Hoy</h2>
+                 <p class="final-cta-text">Descubre por qué Averix Rental es la elección inteligente para empresas de arriendo en Chile.</p>
+                 <button id="openDemoModalFinalRental2" class="btn btn-accent btn-lg">Solicita tu Demo de Rental</button>
+             </div>
+         </section>
+
+    </main>
+
+    <footer class="main-footer">
+         <div class="container footer-content"> <div class="footer-about"> <h4 class="footer-logo">AVERIX</h4> <p>Soluciones ERP inteligentes para Arriendo, Obras y Transporte en Chile. Optimizamos tu gestión para impulsar tu crecimiento.</p> </div> <div class="footer-links"> <h4>Productos</h4> <ul> <li><a href="rental.html">Averix Rental</a></li> <li><a href="obras.html">Averix Obras</a></li> <li><a href="transportes.html">Averix Transportes</a></li> <li><a href="index.html#features-cards">Funcionalidades</a></li> </ul> </div> <div class="footer-company"> <h4>Compañía</h4> <ul> <li><a href="#">Nosotros</a></li> <li><a href="#">Contacto</a></li> <li><a href="#">Blog</a></li> <li><a href="#">Trabaja con Nosotros</a></li> </ul> </div> <div class="footer-legal"> <h4>Legal</h4> <ul> <li><a href="#">Política de Privacidad</a></li> <li><a href="#">Términos de Servicio</a></li> </ul> </div> </div> <div class="footer-bottom"> <div class="container bottom-content"> <p>&copy; <span id="currentYear"></span> Averix SpA. Todos los derechos reservados.</p> <div class="footer-social"> <a href="#" aria-label="LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a> <a href="#" aria-label="Instagram" title="Instagram"><i class="fab fa-instagram"></i></a> </div> </div> </div>
+    </footer>
+
+     <div id="demoModal" class="modal-overlay" aria-hidden="true" role="dialog" aria-labelledby="modalTitle">
+       <div class="modal-content"> <button id="closeDemoModal" class="modal-close-btn" aria-label="Cerrar modal">&times;</button> <h2 id="modalTitle" class="modal-title">Solicita tu Demo Personalizada</h2> <p class="modal-subtitle">Completa el formulario y un especialista se pondrá en contacto contigo.</p> <form id="demoForm" class="modal-form"> <div class="form-group"> <label for="nombre">Nombre Completo <span class="required">*</span></label> <input type="text" id="nombre" name="nombre" required> </div> <div class="form-group"> <label for="email">Correo Electrónico <span class="required">*</span></label> <input type="email" id="email" name="email" required> </div> <div class="form-group"> <label for="empresa">Nombre de la Empresa</label> <input type="text" id="empresa" name="empresa"> </div> <div class="form-group"> <label for="telefono">Teléfono</label> <input type="tel" id="telefono" name="telefono"> </div> <div class="form-group"> <label for="productoInteres">Producto de Interés</label> <select id="productoInteres" name="productoInteres"> <option value="">Selecciona una opción...</option> <option value="Rental">Averix Rental</option> <option value="Obras">Averix Obras</option> <option value="Transportes">Averix Transportes</option> <option value="Todos">Todos / No estoy seguro</option> </select> </div> <div class="form-group"> <label for="mensaje">Mensaje (Opcional)</label> <textarea id="mensaje" name="mensaje" rows="3"></textarea> </div> <button type="submit" class="btn btn-primary modal-submit-btn">Enviar Solicitud</button> <p class="form-note">Nos pondremos en contacto a la brevedad.</p> </form> </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
