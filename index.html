@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Averix - Soluciones ERP Inteligentes para Chile</title> <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Averix - Conéctate y Optimiza tu Gestión</title> <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
 
-    <header class="main-header">
-        <nav class="navbar container">
+    <header class="main-header main-header-light"> <nav class="navbar container">
             <a href="#" class="navbar-logo">
-                Averix </a>
+                AVERIX </a>
 
             <button class="navbar-toggle" id="navbarToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="navbarMenu">
                 <i class="fas fa-bars"></i>
@@ -35,225 +36,60 @@
                 <li class="nav-item">
                     <a href="#testimonials" class="navbar-link">Testimonios</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a href="#" class="navbar-link dropdown-toggle" id="loginDropdownToggle" role="button" aria-haspopup="true" aria-expanded="false">
-                        Iniciar Sesión <i class="fas fa-chevron-down dropdown-indicator"></i>
-                    </a>
-                     <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="loginDropdownToggle">
-                        <li><a class="dropdown-item" href="/login/rental">Portal Rental</a></li>
-                        <li><a class="dropdown-item" href="/login/obras">Portal Obras</a></li>
-                        <li><a class="dropdown-item" href="/login/transportes">Portal Transportes</a></li>
-                    </ul>
-                </li>
                  <li class="nav-item">
-                    <button id="openDemoModal" class="btn btn-secondary navbar-btn">Solicitar Demo</button>
+                     <a href="/login" class="btn btn-outline-nav">Iniciar Sesión</a> </li>
+                 <li class="nav-item">
+                    <button id="openDemoModal" class="btn btn-accent-nav">Solicitar Demo</button>
+                </li>
+                <li class="nav-item nav-item-extra">
+                    <a href="#" aria-label="Configuración Regional"><i class="fas fa-globe"></i></a>
                 </li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="hero" class="hero-section">
-            <div class="container hero-content">
+        <section id="hero" class="hero-section hero-iconstruye"> <div class="container hero-content">
                 <div class="hero-text">
-                    <h1 class="hero-title">La Solución ERP Inteligente <span class="highlight">Diseñada para Chile</span></h1>
-                    <p class="hero-subtitle">Integra, automatiza y optimiza tus operaciones de Arriendo, Obras y Transporte con Averix. Toma decisiones basadas en datos y escala sin límites.</p>
+                    <h1 class="hero-title">OPTIMIZA TU GESTIÓN Y CONÉCTATE AL ECOSISTEMA AVERIX</h1>
+                    <p class="hero-subtitle">Integra los procesos de tu negocio de Arriendo, Obras o Transporte de forma eficiente.</p>
+
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">+100</span>
+                            <span class="stat-label">Empresas confían</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">+5k</span>
+                            <span class="stat-label">Equipos gestionados</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">+1M</span>
+                            <span class="stat-label">Transacciones procesadas</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">+30%</span>
+                            <span class="stat-label">Eficiencia promedio</span>
+                        </div>
+                    </div>
+
                     <div class="hero-buttons">
-                        <button id="openDemoModalHero" class="btn btn-primary btn-lg">Solicita tu Demo <i class="fas fa-play-circle icon-right"></i></button>
-                        <a href="#features" class="btn btn-outline btn-lg">Descubre Más</a>
+                        <button id="openDemoModalHero" class="btn btn-accent btn-lg">Solicitar Demo</button>
                     </div>
                 </div>
                 <div class="hero-image">
-                    <img src="https://via.placeholder.com/550x450/E8F7FE/0b3d7e?text=Averix+ERP+Dashboard" alt="Dashboard de Averix ERP mostrando módulos integrados">
+                    <img src="https://via.placeholder.com/500x550/dee2e6/495057?text=Imagen+Profesional+Averix" alt="Profesional usando el software Averix ERP en una tablet">
                 </div>
             </div>
+             <div class="hero-graphic graphic-1"></div>
+             <div class="hero-graphic graphic-2"></div>
+             <div class="hero-graphic graphic-3"></div>
         </section>
 
-        <section id="features" class="features-section">
-            <div class="container">
-                 <h2 class="section-title">Potencia tu Negocio con los Módulos Averix</h2>
-                 <p class="section-subtitle">Soluciones especializadas para optimizar cada área clave de tu empresa.</p>
-                <div class="features-grid">
-                    <div class="feature-card">
-                        <div class="feature-icon"><i class="fas fa-truck-ramp-box"></i></div> <h3 class="feature-title">Averix Rental</h3>
-                        <p class="feature-description">Gestión completa de arriendos, inventario de equipos, contratos, facturación y mantenimiento.</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon"><i class="fas fa-hard-hat"></i></div> <h3 class="feature-title">Averix Obras</h3>
-                        <p class="feature-description">Control de costos, avances de obra, gestión de recursos, subcontratos y estados de pago.</p>
-                    </div>
-                     <div class="feature-card">
-                        <div class="feature-icon"><i class="fas fa-truck-fast"></i></div> <h3 class="feature-title">Averix Transportes</h3>
-                        <p class="feature-description">Planificación de rutas, gestión de flotas, seguimiento de cargas, control de combustible y conductores.</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon"><i class="fas fa-handshake-angle"></i></div>
-                        <h3 class="feature-title">Gestión Clientes y Proveedores</h3>
-                        <p class="feature-description">Centraliza la información de tus contactos comerciales, historiales y condiciones.</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon"><i class="fas fa-file-invoice-dollar"></i></div>
-                        <h3 class="feature-title">Compras y Finanzas</h3>
-                        <p class="feature-description">Optimiza órdenes de compra, controla gastos, gestiona cuentas y genera reportes financieros.</p>
-                    </div>
-                     <div class="feature-card">
-                        <div class="feature-icon"><i class="fas fa-cogs"></i></div>
-                        <h3 class="feature-title">Configuración Flexible</h3>
-                        <p class="feature-description">Adapta Averix a tus procesos específicos, permisos de usuario y requerimientos locales.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+        </main>
 
-        <section id="benefits" class="benefits-section">
-             <div class="container benefits-content">
-                 <div class="benefits-image">
-                     <img src="https://via.placeholder.com/500x400/DFF2FD/0b3d7e?text=Beneficios+Averix+ERP" alt="Empresario analizando gráficos de crecimiento gracias a Averix ERP">
-                 </div>
-                 <div class="benefits-text">
-                     <h2 class="section-title">¿Por Qué Elegir Averix?</h2>
-                     <p class="section-subtitle">La plataforma diseñada para la eficiencia y crecimiento de empresas en Chile.</p>
-                     <ul class="benefits-list">
-                         <li><i class="fas fa-check-circle"></i> <strong>Operaciones Optimizadas:</strong> Automatiza flujos de trabajo y reduce la carga manual.</li>
-                         <li><i class="fas fa-check-circle"></i> <strong>Visibilidad Total:</strong> Información consolidada y en tiempo real para decisiones rápidas.</li>
-                         <li><i class="fas fa-check-circle"></i> <strong>Control Financiero:</strong> Gestiona costos, facturación y rentabilidad con precisión.</li>
-                         <li><i class="fas fa-check-circle"></i> <strong>Escalabilidad Garantizada:</strong> Nuestra arquitectura multi-tenant crece contigo.</li>
-                         <li><i class="fas fa-check-circle"></i> <strong>Enfoque Local:</strong> Adaptado a las normativas y necesidades del mercado chileno.</li>
-                          <li><i class="fas fa-check-circle"></i> <strong>Soporte Experto:</strong> Acompañamiento cercano para asegurar tu éxito.</li>
-                     </ul>
-                      <button id="openDemoModalBenefits" class="btn btn-primary">Comprueba los Beneficios</button>
-                 </div>
-             </div>
-         </section>
-
-        <section id="testimonials" class="testimonials-section">
-            <div class="container">
-                <h2 class="section-title">La Experiencia de Nuestros Clientes</h2>
-                <p class="section-subtitle">Descubre cómo Averix ha transformado negocios como el tuyo.</p>
-                <div class="testimonials-grid">
-                     <div class="testimonial-card">
-                        <blockquote>
-                            "Implementar Averix Rental simplificó radicalmente nuestra gestión de contratos y disponibilidad de equipos. ¡Un antes y un después!"
-                        </blockquote>
-                        <div class="testimonial-author">
-                             <img src="https://via.placeholder.com/50/cccccc/333?text=AG" alt="Avatar Ana García">
-                             <span>Ana García, Gerente General, Arriendos del Sur</span>
-                         </div>
-                    </div>
-                     <div class="testimonial-card">
-                         <blockquote>
-                             "Con Averix Obras tenemos control total sobre los costos y avances. La información en tiempo real es clave para la rentabilidad."
-                         </blockquote>
-                         <div class="testimonial-author">
-                             <img src="https://via.placeholder.com/50/cccccc/333?text=CM" alt="Avatar Carlos Martínez">
-                             <span>Carlos Martínez, Jefe de Obra, Constructora Andina</span>
-                         </div>
-                     </div>
-                     <div class="testimonial-card">
-                         <blockquote>
-                             "La gestión de flota y el control de combustible con Averix Transportes nos han permitido ahorrar significativamente."
-                         </blockquote>
-                         <div class="testimonial-author">
-                            <img src="https://via.placeholder.com/50/cccccc/333?text=LF" alt="Avatar Laura Fernández">
-                             <span>Laura Fernández, Gerente de Operaciones, Logística Rápida</span>
-                         </div>
-                     </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="cta" class="cta-section">
-            <div class="container cta-content">
-                <h2 class="cta-title">¿Listo para Transformar tu Gestión Empresarial?</h2>
-                <p class="cta-text">Descubre el poder de una solución ERP integrada y adaptada a Chile. Averix es el socio tecnológico que tu negocio necesita para crecer.</p>
-                <button id="openDemoModalCTA" class="btn btn-light btn-lg">Solicita una Demo Personalizada <i class="fas fa-arrow-right icon-right"></i></button>
-            </div>
-        </section>
-
-    </main>
-
-    <footer class="main-footer">
-         <div class="container footer-content">
-             <div class="footer-about">
-                  <h4 class="footer-logo">Averix</h4>
-                  <p>Soluciones ERP inteligentes para Arriendo, Obras y Transporte en Chile. Optimizamos tu gestión para impulsar tu crecimiento.</p>
-             </div>
-             <div class="footer-links">
-                 <h4>Productos</h4>
-                 <ul>
-                     <li><a href="#averix-rental">Averix Rental</a></li>
-                     <li><a href="#averix-obras">Averix Obras</a></li>
-                     <li><a href="#averix-transportes">Averix Transportes</a></li>
-                     <li><a href="#features">Módulos</a></li>
-                 </ul>
-             </div>
-             <div class="footer-company">
-                  <h4>Compañía</h4>
-                 <ul>
-                     <li><a href="#about">Nosotros</a></li> <li><a href="#contact">Contacto</a></li> <li><a href="#">Blog</a></li>
-                     <li><a href="#">Trabaja con Nosotros</a></li>
-                 </ul>
-             </div>
-             <div class="footer-legal">
-                  <h4>Legal</h4>
-                 <ul>
-                     <li><a href="#">Política de Privacidad</a></li>
-                     <li><a href="#">Términos de Servicio</a></li>
-                 </ul>
-             </div>
-         </div>
-         <div class="footer-bottom">
-             <div class="container bottom-content">
-                <p>&copy; <span id="currentYear"></span> Averix SpA. Todos los derechos reservados.</p>
-                <div class="footer-social">
-                     <a href="#" aria-label="LinkedIn" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                     <a href="#" aria-label="Instagram" title="Instagram"><i class="fab fa-instagram"></i></a>
-                </div>
-             </div>
-         </div>
-     </footer>
-
-     <div id="demoModal" class="modal-overlay" aria-hidden="true" role="dialog" aria-labelledby="modalTitle">
-        <div class="modal-content">
-            <button id="closeDemoModal" class="modal-close-btn" aria-label="Cerrar modal">&times;</button>
-            <h2 id="modalTitle" class="modal-title">Solicita tu Demo Personalizada</h2>
-            <p class="modal-subtitle">Completa el formulario y un especialista se pondrá en contacto contigo.</p>
-            <form id="demoForm" class="modal-form">
-                <div class="form-group">
-                    <label for="nombre">Nombre Completo <span class="required">*</span></label>
-                    <input type="text" id="nombre" name="nombre" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Correo Electrónico <span class="required">*</span></label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="empresa">Nombre de la Empresa</label>
-                    <input type="text" id="empresa" name="empresa">
-                </div>
-                <div class="form-group">
-                    <label for="telefono">Teléfono</label>
-                    <input type="tel" id="telefono" name="telefono">
-                </div>
-                <div class="form-group">
-                     <label for="productoInteres">Producto de Interés</label>
-                     <select id="productoInteres" name="productoInteres">
-                         <option value="">Selecciona una opción...</option>
-                         <option value="Rental">Averix Rental</option>
-                         <option value="Obras">Averix Obras</option>
-                         <option value="Transportes">Averix Transportes</option>
-                         <option value="Todos">Todos / No estoy seguro</option>
-                     </select>
-                </div>
-                <div class="form-group">
-                    <label for="mensaje">Mensaje (Opcional)</label>
-                    <textarea id="mensaje" name="mensaje" rows="3"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary modal-submit-btn">Enviar Solicitud</button>
-                 <p class="form-note">Nos pondremos en contacto a la brevedad.</p>
-            </form>
+    <div id="demoModal" class="modal-overlay" aria-hidden="true" role="dialog" aria-labelledby="modalTitle">
         </div>
-    </div>
 
     <script src="script.js"></script>
 </body>
